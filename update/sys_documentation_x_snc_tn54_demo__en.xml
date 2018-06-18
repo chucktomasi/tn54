@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Demo" language="en" table="x_snc_tn54_demo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Demo</label>
+            <language>en</language>
+            <name>x_snc_tn54_demo</name>
+            <plural>Demos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-06-18 15:01:59</sys_created_on>
+            <sys_id>99c2a0d5db3613007d5f5d4e5e961993</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Demo</sys_name>
+            <sys_package display_value="tn54" source="x_snc_tn54">bcc22495db3613007d5f5d4e5e961906</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="tn54">bcc22495db3613007d5f5d4e5e961906</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_tn54_demo__en</sys_update_name>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-06-18 15:01:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

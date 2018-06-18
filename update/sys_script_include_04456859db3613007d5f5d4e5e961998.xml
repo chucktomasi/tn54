@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_snc_tn54.Renumber</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>Renumber</name>
+        <script><![CDATA[var Renumber = Class.create();
+
+MAINT_TABLE = 'sys_number';
+
+Renumber.prototype = {
+
+	initialize: function() {
+	},
+
+	/***
+	 *
+	 * Redo the number field with 'x' digits including padded zeros
+	 *
+	 * @param table - name of the table with records to renumber
+	 * @param field - name of field to renumber
+	 * @param digits - number of digits to renumber to
+	 * @param test = limit test to 1 record (default=true)
+	 *
+	 * @return number of records renumbered
+	 *
+	 ***/
+	run : function(tableName, fieldName, digits, test) {
+
+		var runTest = test || true;
+		var msg = ['x_snc_tn54.Renumber().run(): '];
+
+		// Check to make sure tableName isn't empty
+		if (!tableName) {
+			msg.push('No table name specified.');
+		}
+
+		// check to make sure field name isn't empty
+		if (!fieldName) {
+			msg.push('No field name specified.');
+		}
+
+		// Check to make sure digits isn't empty
+		if (!digits) {
+			msg.push('No digits specified.');
+		}
+
+		// Check to make sure digits is > 0
+		if (digits <= 0) {
+			msg.push('Digits must be greater than 0');
+		}
+
+		// Lookup the prefix for this table (e.g. INC)
+		var prefix = this._getPrefix(tableName);
+		
+		// If any errors were found, display them, log them, and exit
+		if (msg.length > 1) {
+			var output = msg.join('\n');
+			gs.error(output);
+			gs.addErrorMessage(output);
+
+			return 0;	
+		}
+
+		// Get the records for this table
+		var recGr = new GlideRecord(tableName);
+
+		// If we're in test mode, then only get one record for safety reasons
+		if (runTest)
+			recGr.setLimit(1);
+		recGr.query();
+		var recCount = 0;
+
+		// For each record found...
+		while (recGr.next()) {
+
+			recGr.setWorkflow(false);               // Don't run business rules
+			recGr.autoSysFields(false);             // Don't update system fields
+
+			var recNum = recGr.getValue(fieldName); // Get record number
+			var orig = recNum;                      // Save for later
+			
+			// If that didn't work, error and break out
+			if (!recNum) {
+				msg.push('Unable to get value from field: ' + fieldName);
+				gs.error(msg.join('\n'));
+				gs.addErrorMessage(msg.join('\n'));
+
+				break;
+			}
+
+			recNum = recNum.replace(prefix, '');    // strip off the prefix
+
+			// Turn it from string to integer
+			var oldNum = parseInt(recNum, 10);      // turn it in to a number
+			var newNum = this._pad(oldNum, digits); // adjust length w/padded 0s
+			recGr.number = prefix + newNum;         // Apply the new prefix and number
+			gs.info(msg[0] + orig + '-->' + recGr.number);
+			recGr.update();                         // Update the record
+			++recCount;
+		}
+
+		return recCount;
+	},
+
+	_pad : function(n, width, z) {
+		z = z || '0';
+		n = n + '';
+		return n.length >= width ? n : new Array(width - n.length + 1).join(z) + n;
+	},
+
+	_getPrefix : function(tableName) {
+
+		var numGr = new GlideRecord(MAINT_TABLE);
+		numGr.addQuery('table', tableName);
+		numGr.query();
+
+		if (numGr.next()) {
+			return numGr.getValue('prefix');
+		}
+
+		return;
+	},
+
+	type: 'Renumber'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-06-18 15:43:11</sys_created_on>
+        <sys_id>04456859db3613007d5f5d4e5e961998</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Renumber</sys_name>
+        <sys_package display_value="tn54" source="x_snc_tn54">bcc22495db3613007d5f5d4e5e961906</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="tn54">bcc22495db3613007d5f5d4e5e961906</sys_scope>
+        <sys_update_name>sys_script_include_04456859db3613007d5f5d4e5e961998</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-06-18 16:47:09</sys_updated_on>
+    </sys_script_include>
+</record_update>

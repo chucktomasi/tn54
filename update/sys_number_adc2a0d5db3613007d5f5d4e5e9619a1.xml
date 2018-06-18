@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_snc_tn54_demo">x_snc_tn54_demo</category>
+        <maximum_digits>4</maximum_digits>
+        <number>1000</number>
+        <prefix>DEM</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>chuck.tomasi</sys_created_by>
+        <sys_created_on>2018-06-18 15:01:59</sys_created_on>
+        <sys_id>adc2a0d5db3613007d5f5d4e5e9619a1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>DEM</sys_name>
+        <sys_package display_value="tn54" source="x_snc_tn54">bcc22495db3613007d5f5d4e5e961906</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="tn54">bcc22495db3613007d5f5d4e5e961906</sys_scope>
+        <sys_update_name>sys_number_adc2a0d5db3613007d5f5d4e5e9619a1</sys_update_name>
+        <sys_updated_by>chuck.tomasi</sys_updated_by>
+        <sys_updated_on>2018-06-18 15:07:20</sys_updated_on>
+    </sys_number>
+</record_update>

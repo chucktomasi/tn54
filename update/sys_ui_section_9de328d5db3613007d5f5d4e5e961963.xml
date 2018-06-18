@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="9de328d5db3613007d5f5d4e5e961963" sys_domain="global" table="x_snc_tn54_demo" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-06-18 15:09:17</sys_created_on>
+            <sys_id>d0746c19db3613007d5f5d4e5e96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_tn54_demo" sys_domain="global" view="Default view">9de328d5db3613007d5f5d4e5e961963</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-06-18 15:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>1</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-06-18 15:09:17</sys_created_on>
+            <sys_id>98746c19db3613007d5f5d4e5e96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_tn54_demo" sys_domain="global" view="Default view">9de328d5db3613007d5f5d4e5e961963</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-06-18 15:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-06-18 15:09:17</sys_created_on>
+            <sys_id>1c746c19db3613007d5f5d4e5e96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_tn54_demo" sys_domain="global" view="Default view">9de328d5db3613007d5f5d4e5e961963</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-06-18 15:09:17</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>3</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-06-18 15:09:17</sys_created_on>
+            <sys_id>9c746c19db3613007d5f5d4e5e96193f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_tn54_demo" sys_domain="global" view="Default view">9de328d5db3613007d5f5d4e5e961963</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-06-18 15:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>4</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-06-18 15:09:17</sys_created_on>
+            <sys_id>10746c19db3613007d5f5d4e5e961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_tn54_demo" sys_domain="global" view="Default view">9de328d5db3613007d5f5d4e5e961963</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-06-18 15:09:17</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>5</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-06-18 15:09:17</sys_created_on>
+            <sys_id>90746c19db3613007d5f5d4e5e961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_tn54_demo" sys_domain="global" view="Default view">9de328d5db3613007d5f5d4e5e961963</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-06-18 15:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>6</position>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-06-18 15:09:17</sys_created_on>
+            <sys_id>14746c19db3613007d5f5d4e5e961940</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_snc_tn54_demo" sys_domain="global" view="Default view">9de328d5db3613007d5f5d4e5e961963</sys_ui_section>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-06-18 15:09:17</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_snc_tn54_demo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>chuck.tomasi</sys_created_by>
+            <sys_created_on>2018-06-18 15:06:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9de328d5db3613007d5f5d4e5e961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_tn54_demo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="tn54" source="x_snc_tn54">bcc22495db3613007d5f5d4e5e961906</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="tn54">bcc22495db3613007d5f5d4e5e961906</sys_scope>
+            <sys_update_name>sys_ui_section_9de328d5db3613007d5f5d4e5e961963</sys_update_name>
+            <sys_updated_by>chuck.tomasi</sys_updated_by>
+            <sys_updated_on>2018-06-18 15:06:53</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
