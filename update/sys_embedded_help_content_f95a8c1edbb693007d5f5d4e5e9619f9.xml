@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>reporting</category>
+        <content><![CDATA[    <h1 class="title topictitle1">Create a report</h1>                <div class="body taskbody"><p class="shortdesc">Reports enable you to visualize data and share your visualizations with other users. </p>        <ol class="ol steps" id="sys_report_template-normal__steps_ygl_2gd_z1b"><li class="li step">                <span class="ph cmd">On the <span class="ph uicontrol">Data</span> tab or the <span class="ph uicontrol">Data</span>                    choice list, choose the data to visualize.</span>                <table class="simpletable choicetable choicetableborder" id="sys_report_template-normal__choicetable_l4g_fhd_gw"><thead><tr class="sthead chhead"><th id="d546871e38-option">Option</th><th id="d546871e38-desc">Definition</th></tr></thead><tbody><tr class="strow chrow"><td id="d546871e51" class="stentry choption"><strong>Data source</strong></td><td class="stentry chdesc">Data sources configured to be a single source of truth for your                            business. Use data sources when you create reports to ensure data                            consistency across reports.</td></tr><tr class="strow chrow"><td id="d546871e60" class="stentry choption"><strong>Table</strong></td><td class="stentry chdesc">Report directly on table data. Click the blue filter to add data                            filters.</td></tr><tr class="strow chrow"><td id="d546871e69" class="stentry choption"><strong>External import</strong></td><td class="stentry chdesc">Choose an existing imported report source, or click the Upload icon                            to import a new file. (Only in Report Designer)</td></tr></tbody></table>            </li><li class="li step">                <span class="ph cmd">Choose how you want to visualize the data on the <span class="ph uicontrol">Type</span>                    tab/choice list.</span>            </li><li class="li step">                <span class="ph cmd">On the <span class="ph uicontrol">Configure</span> tab or on the choice lists that                    display, further configure how the data is visualized.</span>            </li><li class="li step">                <span class="ph cmd">Select the <span class="ph uicontrol">Style</span> tab to customize the look and feel of                    your visualization. In the Report Builder, click the gear icon to display style                    options</span>            </li><li class="li step">                <span class="ph cmd">Click <span class="ph uicontrol">Save</span>.</span>            </li><li class="li step">                <span class="ph cmd">Click the share icon to share the report with others, add the report to a                    dashboard, and export or schedule the report. In the Report Builder, click the                    arrow next to the <span class="ph uicontrol">Save</span> button and select                        <span class="ph uicontrol">Sharing</span>.</span>            </li></ol>    </div>    <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Report-Drill-Downs&amp;version&#61;kingston" target="_blank">Drilling down within reports</a></div><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Report-Types-RD&amp;version&#61;kingston" target="_blank">Report types and creation details — Report Designer</a></div></div></div></div>]]></content>
+        <last_sync>2018-07-06 15:50:07</last_sync>
+        <modifier>normal</modifier>
+        <name>sys_report_template-normal</name>
+        <page>sys_report_template</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-06-21 15:49:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f95a8c1edbb693007d5f5d4e5e9619f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>sys_report_template-normal</sys_name>
+        <sys_package display_value="tn54" source="x_snc_tn54">bcc22495db3613007d5f5d4e5e961906</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="tn54">bcc22495db3613007d5f5d4e5e961906</sys_scope>
+        <sys_update_name>sys_embedded_help_content_f95a8c1edbb693007d5f5d4e5e9619f9</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-06 15:50:07</sys_updated_on>
+        <version>k</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=f95a8c1edbb693007d5f5d4e5e9619f9"/>
+</record_update>
